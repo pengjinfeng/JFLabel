@@ -57,11 +57,6 @@
     }
     return _style;
 }
-
-
-
-
-
 //设置text的时候讲text转化为我们想要的可变字符串
 - (void)setText:(NSString *)text{
     [super setText:text];
@@ -70,8 +65,24 @@
     self.jfAttributeText =attriString;
 //    self.attributedText = attriString;
 }
-
-
+//行间距
+- (void)setLineSpace:(CGFloat)lineSpace{
+    _lineSpace = lineSpace;
+    self.style.lineSpacing = _lineSpace;
+    [self setNeedsDisplay];
+}
+//缩颈
+- (void)setHeadIndentSpace:(CGFloat)headIndentSpace{
+    _headIndentSpace = headIndentSpace;
+    self.style.firstLineHeadIndent = _headIndentSpace;
+    [self setNeedsDisplay];
+}
+//段落间距
+- (void)setParagaraphSpace:(CGFloat)paragaraphSpace{
+    _paragaraphSpace = paragaraphSpace;
+    self.style.paragraphSpacing = _paragaraphSpace;
+    [self setNeedsDisplay];
+}
 - (void)addJFLabelAttribute:(JFLabelAttribute)attrStyle value:(nonnull id)value range:(NSRange)range{
     switch (attrStyle) {
         case JFLabelAttributeColor:

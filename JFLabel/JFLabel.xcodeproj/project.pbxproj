@@ -14,6 +14,7 @@
 		18B383F81D74332300938AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B383F71D74332300938AC4 /* Assets.xcassets */; };
 		18B383FB1D74332300938AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B383F91D74332300938AC4 /* LaunchScreen.storyboard */; };
 		18B384071D750D5700938AC4 /* JFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B384061D750D5700938AC4 /* JFLabel.m */; };
+		18B3840A1D7556E100938AC4 /* JFTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B384091D7556E100938AC4 /* JFTextAttachment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		18B383FC1D74332300938AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B384051D750D5700938AC4 /* JFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLabel.h; sourceTree = "<group>"; };
 		18B384061D750D5700938AC4 /* JFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLabel.m; sourceTree = "<group>"; };
+		18B384081D7556E100938AC4 /* JFTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTextAttachment.h; sourceTree = "<group>"; };
+		18B384091D7556E100938AC4 /* JFTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTextAttachment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				18B383EF1D74332300938AC4 /* AppDelegate.m */,
 				18B384051D750D5700938AC4 /* JFLabel.h */,
 				18B384061D750D5700938AC4 /* JFLabel.m */,
+				18B384081D7556E100938AC4 /* JFTextAttachment.h */,
+				18B384091D7556E100938AC4 /* JFTextAttachment.m */,
 				18B383F11D74332300938AC4 /* ViewController.h */,
 				18B383F21D74332300938AC4 /* ViewController.m */,
 				18B383F41D74332300938AC4 /* Main.storyboard */,
@@ -157,6 +162,7 @@
 				18B384071D750D5700938AC4 /* JFLabel.m in Sources */,
 				18B383F31D74332300938AC4 /* ViewController.m in Sources */,
 				18B383F01D74332300938AC4 /* AppDelegate.m in Sources */,
+				18B3840A1D7556E100938AC4 /* JFTextAttachment.m in Sources */,
 				18B383ED1D74332300938AC4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

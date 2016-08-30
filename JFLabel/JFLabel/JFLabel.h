@@ -8,6 +8,7 @@
 
 #define degree(d) (M_PI * d / 180.0f)
 #import <UIKit/UIKit.h>
+#import "JFTextAttachment.h"
 typedef NS_ENUM(NSInteger,JFLabelAttribute){
     //颜色
     JFLabelAttributeColor = 0,
